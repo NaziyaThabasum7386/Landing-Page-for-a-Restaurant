@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+# Foodie House - React Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This README provides an overview of the main components in the Landing Page for a Restaurant React application, detailing their functionalities and purpose within the application.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [App Component](#app-component)
+- [IconBar Component](#iconbar-component)
+- [Navbar Component](#navbar-component)
+- [HeroSection Component](#herosection-component)
+- [Menu Component](#menu-component)
+- [Testimonials Component](#testimonials-component)
+- [About Component](#about-component)
+- [Contact Component](#contact-component)
+- [Footer Component](#footer-component)
 
-### `npm start`
+## App Component
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The `App` component is the main entry point of the Landing Page for a Restaurant application. It sets up routing with `React Router` and incorporates all other components to build the page structure. It includes the `Navbar`, `HeroSection`, `About`, `Menu`, `Testimonials`, `Contact`, and `Footer` components. The `IconBar` component is also included to display a fixed-position Halal certification icon.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## IconBar Component
 
-### `npm test`
+The `IconBar` component displays a fixed-position Halal certification icon on the top-right corner of the screen. This component remains visible as the user scrolls, providing important certification information throughout the browsing experience.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Navbar Component
 
-### `npm run build`
+The `Navbar` component provides navigation links to different sections of the page, such as `HeroSection`, `About`, `Menu`, `Testimonials`, and `Contact`. It allows users to easily access various parts of the website from any location on the page.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## HeroSection Component
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The `HeroSection` component features a hero image and Food video, providing a captivating introduction to the restaurant's website. This component is designed to grab the user's attention and offer an engaging start to their visit.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Menu Component
 
-### `npm run eject`
+The `Menu` component displays a list of menu items categorized into Biryani, Curries, Fast Food, Desserts, and Bakery. Users can filter items by category and view details such as images or videos, descriptions, and prices. This component helps users easily explore the restaurant's offerings.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Testimonials Component
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The `Testimonials` component displays customer reviews in a carousel format, showcasing positive feedback and ratings. This component highlights customer satisfaction and provides social proof to potential diners.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## About Component
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+The `About` component provides detailed information about the restaurant, including its history, mission, and values. It offers insights into the restaurant's background and what sets it apart from others.
 
-## Learn More
+## Contact Component
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+The `Contact` component provides a contact form where users can submit inquiries or feedback. This component allows customers to easily get in touch with the restaurant for questions, reservations, or feedback.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Footer Component
 
-### Code Splitting
+The `Footer` component provides copyright information and additional links at the bottom of the page. It serves as a consistent footer across all pages, offering legal information and other useful links.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
