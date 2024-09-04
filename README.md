@@ -1,6 +1,5 @@
 # Foodie House - React Application
-
-This README provides an overview of the main components in the Landing Page for a Restaurant React application, detailing their functionalities and purpose within the application.
+This README provides an overview of the main components in the Landing Page for a Restaurant React application, detailing their functionalities and how responsiveness is handled within the application.
 
 ## Table of Contents
 
